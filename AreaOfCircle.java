@@ -13,10 +13,3 @@ class Area1{
 		
 	}
 }
-class AreaOfCircle{
-	public static void main(String[] args) {
-		Area1 A =new Area1(0);
-		A.Area(14.0);
-		
-	
-}}
