@@ -1,4 +1,3 @@
-package oop;
 class Area1{
 	double area,radius;
 	
