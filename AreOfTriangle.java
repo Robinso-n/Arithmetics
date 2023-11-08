@@ -1,5 +1,3 @@
-package oop;
-
 public class AreOfTriangle {
 	double area,height,base;
 	public void area(double area,double height,double base) {
