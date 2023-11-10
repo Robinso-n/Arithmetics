@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class rectanglePerimeter {
-
-    public static void main(String[] args) {
+   
         Scanner input = new Scanner(System.in);
 
         System.out.println("Length Of Rectangle Is: ");
