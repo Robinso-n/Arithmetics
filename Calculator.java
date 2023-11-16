@@ -22,6 +22,7 @@ public class Calculator {
 					num2=in.nextInt();
 					Addition w=new Addition(num1, num2);
 					w.Addition(num1,num2);
+					break;
 					
 				}
 				
@@ -33,6 +34,7 @@ public class Calculator {
 					num2=in.nextInt();
 					Subtraction w=new Subtraction();
 					w.Substraction(num1,num2);
+					break;
 					
 				}
 				
@@ -44,6 +46,7 @@ public class Calculator {
 					num2=in.nextInt();
 					Multiplication w=new Multiplication();
 					w.Multiplication(num1,num2);
+					break;
 					
 				}
 				
@@ -55,6 +58,7 @@ public class Calculator {
 					num2=in.nextInt();
 					Division w=new division();
 					w.Substraction(num1,num2);
+					break;
 					
 				}
 				
