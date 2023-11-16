@@ -1,5 +1,3 @@
-package oop;
-
 import java.util.Scanner;
 public class Calculator {
 	
@@ -17,18 +15,46 @@ public class Calculator {
 				switch(choice) {
 				
 				case 1:{
+					System.out.println("Enter the numbers to add");
+					int num1;
+					int num2;
+					num1=in.nextInt();
+					num2=in.nextInt();
+					Addition w=new Addition(num1, num2);
+					w.Addition(num1,num2);
 					
 				}
 				
 				case 2:{
+					System.out.println("Enter the number to Subtract");
+					int num1;
+					int num2;
+					num1=in.nextInt();
+					num2=in.nextInt();
+					Subtraction w=new Subtraction();
+					w.Substraction(num1,num2);
 					
 				}
 				
 				case 3:{
+					System.out.println("Enter the number to Multiply");
+					int num1;
+					int num2;
+					num1=in.nextInt();
+					num2=in.nextInt();
+					Multiplication w=new Multiplication();
+					w.Multiplication(num1,num2);
 					
 				}
 				
 				case 4:{
+					System.out.println("Enter the number to Division");
+					int num1;
+					int num2;
+					num1=in.nextInt();
+					num2=in.nextInt();
+					Division w=new division();
+					w.Substraction(num1,num2);
 					
 				}
 				
